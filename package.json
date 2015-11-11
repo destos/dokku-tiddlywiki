@@ -3,8 +3,10 @@
   "version": "0.0.1",
   "description": "Dokku install of tiddlywiki",
   "author": "Patrick Forringer",
+  "main": "./server.js",
   "license": "MIT",
   "dependencies": {
+    "hostenv": "^1.0.3",
     "tiddlywiki": "^5.1.9"
   }
 }
