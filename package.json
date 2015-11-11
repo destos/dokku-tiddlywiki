@@ -1,0 +1,10 @@
+{
+  "name": "dokku-tiddlywiki",
+  "version": "0.0.1",
+  "description": "Dokku install of tiddlywiki",
+  "author": "Patrick Forringer",
+  "license": "MIT",
+  "dependencies": {
+    "tiddlywiki": "^5.1.9"
+  }
+}
