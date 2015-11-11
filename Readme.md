@@ -1,3 +1,7 @@
 # Installing wiki
 
-## Volumes
+```bash
+$ dokku apps:create wiki
+```
+
+ Volumes
