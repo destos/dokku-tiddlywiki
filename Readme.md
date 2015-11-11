@@ -1,15 +1,20 @@
-# Installing wiki
+# TiddlyWiki on dokku!
+
+## Installing:
+
+### Get the server ready
 
 `on remote`
 ```bash
 $ dokku apps:create wiki
-$ dokku volumes:add wiki /srv/www/contents/
+$ dokku volume:add wiki /srv/www/contents/
 ```
 
-Do your deploy
+### Do your deploy
 
 `locally`
 ```bash
+$ git remote add dokku dokku@<your-host.com>:<your-app-name>
 $ git push dokku master
 ```
 
